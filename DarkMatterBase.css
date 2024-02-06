@@ -39,15 +39,15 @@ button {
 :not(div[class*="userProfile"]).theme-light,
 div[class*="userProfile"][class*="unThemed"].theme-light {
 	/* Discord vars */
-	--background-primary: var(--background-solid);
+	--background-primary: transparent;
 	--background-mobile-primary: var(--background-primary);
-	--background-secondary: var(--background-solid);
+	--background-secondary: rgb(0, 0, 0, 0.3);
 	--background-mobile-secondary: var(--background-secondary);
-	--background-secondary-alt: var(--background-solid);
-	--background-tertiary: var(--background-solid);
+	--background-secondary-alt: transparent;
+	--background-tertiary: transparent;
 	--background-floating: var(--background-solid);
 	--background-secondary: var(--background-solid);
-	--background-accent: var(--background-solid);
+	--background-accent: #4f545c;
 	--background-message-hover: rgba(var(--md-black), 0.4);
 	--channeltextarea-background: transparent;
 	--activity-card-background: rgba(var(--dm-white), 0.05);
